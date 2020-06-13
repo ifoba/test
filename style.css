@@ -1,0 +1,61 @@
+#can {
+    border: 5px solid black;
+    margin: 35px;
+    background: #d8d1d1;
+
+}
+
+.tetris {
+    width: 400px;
+    height: 800px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: cadetblue;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: #b8860b;
+}
+
+.control {
+    display: flex;
+    margin-left: 40px;
+}
+.container {
+    display: flex;
+}
+
+.left {
+    margin-right: 35px;
+}
+.left.press {
+    background: #30bb24;
+}
+.right.press {
+    background: #30bb24;
+}
+
+.up, .down {
+    margin-left: 40px;
+}
+
+.big-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 30px 0 0 105px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: #b8860b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.big-btn.press {
+    background: #30bb24;
+}
