@@ -7,13 +7,13 @@ export default class Car {
     }
     drawCar(carPosition) {
         const carWidth = 60;
-        if(carPosition === 'left'){
+        if(carPosition === 1){
             this.car.forEach(el=>{
                 this.block.drawBlock(el.x, el.y);
             });
         }else{
             this.car.forEach(el=>{
-                this.block.drawBlock(el.x + car.carWidth, el.y);
+                this.block.drawBlock(el.x + carWidth, el.y);
             });
         }
     }

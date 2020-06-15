@@ -59,3 +59,23 @@
 .big-btn.press {
     background: #30bb24;
 }
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background: #b8860b;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+#start.on {
+    background: #30bb24;
+}
