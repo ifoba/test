@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "swiper": "^5.3.8",
+    "swiper": "^6.5.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
